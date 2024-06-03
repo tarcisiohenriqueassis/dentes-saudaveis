@@ -1,0 +1,29 @@
+.header{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px 0px;
+    background-color: #1B3675;
+    position: fixed;
+    border-bottom: 2px solid #fff;
+    z-index: 1;
+}
+.containerImagem{
+    width: 130px;
+    height: 110px;
+}
+.imagem{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header h1{
+    font-size: clamp(17px, 3rem ,3rem);
+    color: #fff;
+    padding: 0px 14px;
+    letter-spacing: 3px;
+}
