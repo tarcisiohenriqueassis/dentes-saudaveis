@@ -27,6 +27,14 @@ export default function Home() {
           <h2>Os melhores <strong>Aparelhos Dentários </strong>!</h2>
           <p>Confira a baixo todas as especialidades odontológicas que temos á sua disposição!</p>
         </div>
+        <div className={styles.containerEspecialidades}>
+          <ul>
+              <li>Pré-avaliação</li>
+              <li>Aparelhos Dentários</li>
+              <li>Raio-X digita</li>
+              <li>Clareamento dental</li>
+          </ul>
+        </div>
        </main>
     </>
   );
