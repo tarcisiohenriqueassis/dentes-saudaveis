@@ -1,21 +1,26 @@
 .containerMain{
     width: 100vw;
     height: 100vh;
-    transform: translateY(162px);
+    transform: translateY(100px);
+    padding: 25px 0px 0px;
     text-align: center;
     background-color: #1B3675;
     color: #fff;
 }
-.containerTitulo h2{
-    color: gold;
+.containerTitulo h1{
     font-size: clamp(2.5rem, 4vw ,4rem);
     font-weight: 200;
-    padding: 75px 30px 10px;
+    padding: 55px 30px 0px;
+    letter-spacing: 4px;
+    color: gold;
 }
 .containerTitulo p{
-    padding: 35px 18px;
     font-size: 1.6rem;
     font-weight: 200;
+    padding: 35px 18px;
+}
+.containerEspecialidades{
+    padding: 0px 0px 60px;
 }
 .containerEspecialidades li{
     display: flex;
@@ -29,13 +34,98 @@
     width: 50px;
     height: 50px;
     content: "";
-    background-image: url(../../public/dente0.png);
+    background-image: url(../../public/dente.png);
     background-size: 50px 50px;
     background-repeat: no-repeat;
 }
+.containerBeneficios{ 
+    background-color: #fff;
+    color: #000;
+}
+.containerBeneficios h2{
+    font-weight: 200;
+    padding: 50px 20px;
+    letter-spacing: 4px;
+}
+.imagemAparelho{
+    width: 70%;
+    height: 100%;
+    max-width: 71%;
+    min-width: 300px;
+    object-fit: scale-down;
+}
+.containerTextosBeneficios{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 45px 5px;
+    background-color: #fff;
+    color: #000;
+}
+.containerTextosBeneficios article{
+    display: flex;
+    width: 26%;
+    max-width: 26%;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px 15px;
+    border-radius: 10px;
+    line-height: 25px;
+}
+.containerTextosBeneficios article h3{
+    padding: 0px 0px 15px 0px;
+}
+.containerDepoimentos{
+    background-color: #fff;
+    color: #000;
+}
+.containerDepoimentos h2{
+    font-weight: 300;
+    font-size: clamp(22px, 4vw,42px);
+}
+.containerDepoimentos span{
+    font-weight: 500;
+}
+.containerDepoimentosCard{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 30px 0px 0px
+}
 
-@media(max-width:515px){
-    .containerTitulo h2{
-        padding: 50px 0px 0px;
+
+
+@media(max-width:900px){
+    .containerMain{
+        padding: 35px 0px 0px;
+    }
+    .containerBeneficios article{
+        width: 75%;
+        max-width: 77%;
+        height: auto;
+    }
+    
+    .containerTextosBeneficios article{
+        width: 365px;
+        max-width: 365px;
+        height: auto;
+    }
+
+
+
+
+
+
+    
+    @media(Max-width:976px){
+        .containerBeneficios article{
+            width: 75%;
+            max-width: 77%;
+            height: auto;
+        }
     }
 }

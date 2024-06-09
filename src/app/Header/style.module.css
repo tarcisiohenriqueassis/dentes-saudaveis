@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 25px 0px;
+    padding: 0px 0px 5px;
     background-color: #1B3675;
     position: fixed;
     border-bottom: 2px solid #fff;
@@ -14,7 +14,7 @@
 }
 .containerImagem{
     width: 130px;
-    height: 110px;
+    height: 130px;
 }
 .imagem{
     width: 100%;
@@ -22,8 +22,9 @@
     object-fit: cover;
 }
 .header h1{
-    font-size: clamp(17px, 3rem ,3rem);
+    font-size: clamp(27px, 4vw ,5vw);
     color: #fff;
     padding: 0px 14px;
     letter-spacing: 3px;
 }
+
