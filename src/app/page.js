@@ -2,7 +2,6 @@
 import Head from "next/head";
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 //import Estilo
 import styles from "./page.module.css";
@@ -25,11 +24,9 @@ export default function Home() {
   return (
     <>
      <Head>
-        <title>Dentes Saudaveis</title>
-        <meta name="description" content="Dentes Saudaveis á 40 anos no mercado" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="dente01.png"/>
-      </Head>
+     <meta charset="UTF-8"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     </Head>
         
         <Header titulo="Dentes Saudáveis" imagem={LogoDente} tituloImagem="Dente Molar"/>
        

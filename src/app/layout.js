@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Dentes Saudáveis",
-  description: "A sua melhor opçaõ",
+  description: "A sua melhor opçaõ",icons:{icon:"/dente.ico"}
 };
 
 export default function RootLayout({ children }) {
